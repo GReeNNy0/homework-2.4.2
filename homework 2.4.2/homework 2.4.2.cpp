@@ -4,6 +4,7 @@
 #include <algorithm> 
 using namespace std;
 
+
 class Adress {
 private:
     std::string city;
@@ -23,6 +24,7 @@ public:
     }
 };
 
+
 int main()
 {
     vector<Adress> adresses;
@@ -33,6 +35,7 @@ int main()
         cout << "Не удалось открыть файл!" << std::endl;
         return 1;
     }
+
     
     string city;
     string street;
